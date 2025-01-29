@@ -74,7 +74,6 @@ class ActorDetail(
     generics.GenericAPIView,
     mixins.RetrieveModelMixin,
     mixins.UpdateModelMixin,
-    mixins.P,
     mixins.DestroyModelMixin
 ):
     queryset = Actor.objects.all()
